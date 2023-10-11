@@ -4,6 +4,13 @@
     {
         static void Main(string[] args)
         {
+
+
+
+
+            #region Task1
+
+
             Person persona = new Person("Žmogėdra", 42);
             persona.PrintInfoUnlocked();
 
@@ -18,7 +25,7 @@
             Teacher mokytojas = new Teacher("Ziniuonis", 70, "Runos");
             mokytojas.PrintInfoUnlocked();
             Console.WriteLine($"Subject is {mokytojas.GetSubject()}");
-
+            #endregion
 
 
             //protected - tevu nurodyme kas yra, tas nesikeciai - bus private
